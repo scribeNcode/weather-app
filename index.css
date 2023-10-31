@@ -8,3 +8,13 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
  }
+
+ body{
+   background: #E3F2Fd;
+ }
+
+ h1{
+   text-align: center;
+   background: #53F2Fd;
+   padding: 18px 0;
+ }
