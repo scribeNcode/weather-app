@@ -111,3 +111,29 @@
   margin-top: -10px;
   text-transform: capitalize;
  }
+
+
+ .days-forecast h2{
+  font-size: 1.5rem;
+  margin: 20px 0;
+ }
+
+ .weather-card{
+  display: flex;
+   gap: 20px;
+ }
+
+
+.weather-card .cards{
+  list-style: none;
+  color: #fff;
+  padding: 18px 16px;
+  border-radius: 5px;
+  background: #6C757D;
+  width: calc(100%/5);
+}
+
+.weather-card .cards img{
+  max-width: 70px;
+  margin: 5px 0 -12px 0;
+}
