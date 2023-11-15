@@ -139,12 +139,43 @@
 }
 
 
+@media(max-width:1200px){
+  .weather-card .cards{
+    width: calc(100% / 3 - 15px) ;
+  }
+}
+
+@media(max-width:950px){
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  
+
+  .weather-input{
+    width: 100%;
+  }
+
+  .weather-card .cards{
+    width: calc(100% / 2 - 15px) ;
+  }
+}
+
 @media(max-width:750px){
   .container{
+    display: flex;
     flex-wrap: wrap;
     padding: 15px;
   }
   .weather-input{
     width: 100%;
+  }
+
+  .weather-card{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
